@@ -1,19 +1,19 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: my-nginx
+  name: mustad-ecr-poc
 spec:
   selector:
     matchLabels:
-      run: my-nginx
+      run: mustad-ecr-poc
   replicas: 2
   template:
     metadata:
       labels:
-        run: my-nginx
+        run: mustad-ecr-poc
     spec:
       containers:
-      - name: my-nginx
-        image: nginx
+      - name: mustad-ecr-poc
+        image: mustad-ecr-poc:52 
         ports:
         - containerPort: 80
