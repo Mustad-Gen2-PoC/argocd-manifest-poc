@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: mustad-ecr-poc
-        image:mustad-ecr-poc:68
+        image:mustad-ecr-poc:69
         ports:
         - containerPort: 80
