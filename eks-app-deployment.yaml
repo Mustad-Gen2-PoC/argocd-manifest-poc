@@ -6,7 +6,7 @@ spec:
   selector:
     matchLabels:
       run: mustad-ecr-poc
-  replicas: 2
+  replicas: 4
   template:
     metadata:
       labels:
