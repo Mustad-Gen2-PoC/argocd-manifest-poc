@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: mustad-ecr-poc
-        image: 034165090723.dkr.ecr.ap-northeast-2.amazonaws.com/mustad-ecr-poc:2420
+        image: 034165090723.dkr.ecr.ap-northeast-2.amazonaws.com/mustad-ecr-poc:2421
         ports:
         - containerPort: 80
